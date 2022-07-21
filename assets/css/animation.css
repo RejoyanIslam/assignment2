@@ -1,0 +1,229 @@
+
+ @media screen and (max-width:576px) {
+    
+
+    .img1{
+    transform: rotate(10deg);
+    transform-origin: top ;
+
+    width: 40%;
+    margin-left: -34px;
+    animation: playing1 6s linear 0s infinite forwards;
+    
+}
+
+.img2{
+    position: relative;
+    top: -54px;
+    left: -100px;
+    width:10%;
+    animation:playing2 6s linear 1.25s infinite forwards;  
+    transform: translate(0px);
+}
+
+.img3{
+    transition: 1s;
+    width: 15%;
+    float: right;
+   
+    transition: 3s;
+    margin-right: 20px;
+    margin-top: 30px;
+    animation: playing3 6s linear 1s infinite forwards;
+    
+}
+
+@keyframes playing1{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+            transform: translateX(50px);       
+    }
+    50%{
+            transform: translateX(50px);
+    }
+}
+
+ @keyframes playing2{
+    0%{
+            transform: translateX(0px);
+    }
+    25%{
+            transform: translate(149px,-52px);
+    }
+      50%{
+        transform: translate(297px,-30px);
+    } 
+    75%{
+            transform: translate(149px,-52px);
+    }
+    100%{
+            transform: translateX(0px);
+    } 
+} 
+
+ @keyframes playing3{
+    0%{
+        transform: translateX(10px) rotate(-40deg);  
+    }
+    25%{
+        transform: translateX(-25px) rotate(-20deg); 
+    }
+    50%{
+       transform: translateX(-50px) rotate(0deg)   
+    }  
+} 
+    
+ }  
+
+
+ @media screen and (min-width:450px) and  (max-width:1200px)  {
+    
+     .img1{
+    transform: rotate(10deg);
+    transform-origin: top ;
+    width: 40%;
+    margin-left: -34px;
+    animation: playing1 6s linear 0s infinite forwards;
+    
+}
+
+.img2{
+    position: relative;
+    top: -75px;
+    left: -156px;
+    width:10%;
+    animation:playing2 6s linear 1.25s infinite forwards;  
+    transform: translate(0px); 
+}
+
+.img3{
+    transition: 1s;
+    width: 15%;
+    float: right;
+   
+    margin-right: 21px;
+    margin-top: 48px;
+    animation: playing3 6s linear 1.75s infinite forwards;
+    transform: translateX(-50px) rotate(0deg)
+}
+
+@keyframes playing1{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+            transform: translateX(50px);       
+    }
+    50%{
+            transform: translateX(50px);
+    }
+}
+
+ @keyframes playing2{
+    0%{
+            transform: translateX(0px);
+    }
+    25%{
+            transform: translate(222px,-100px);
+    }
+      50%{
+        transform: translate(444px,-35px);
+    } 
+    75%{
+            transform: translate(222px,-100px);
+    }
+    100%{
+            transform: translateX(0px);
+    } 
+} 
+
+ @keyframes playing3{
+    0%{
+        transform: translateX(10px) rotate(-40deg);  
+    }
+    25%{
+        transform: translateX(-25px) rotate(-20deg); 
+    }
+    50%{
+       transform: translateX(-50px) rotate(0deg)  
+    }  
+} 
+} 
+
+@media screen and (min-width:1200px) {
+
+      
+     .img1{
+    transform: rotate(10deg);
+    transform-origin: top ;
+    width: 40%;
+    margin-left: -34px;
+    animation: playing1 6s linear 0s infinite forwards;
+    transform: translateX(50px);
+    
+}
+
+.img2{
+    position: relative;
+    top: -127px;
+    left: -292px;
+    width:10%;
+    animation:playing2 6s linear 1.25s infinite forwards;  
+    transform: translate(0px); 
+}
+
+.img3{
+    transition: 1s;
+    width: 15%;
+    float: right;
+   
+    margin-right: 21px;
+    margin-top: 80px;
+    animation: playing3 6s linear 1.75s infinite forwards;
+    
+}
+
+@keyframes playing1{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+            transform: translateX(50px);       
+    }
+    50%{
+            transform: translateX(50px);
+    }
+}
+
+ @keyframes playing2{
+    0%{
+            transform: translateX(0px);
+    }
+    25%{
+            transform: translate(402px,-155px);
+    }
+      50%{
+        transform: translate(803px,-58px);
+    } 
+    75%{
+            transform: translate(402px,-155px);
+    }
+    100%{
+            transform: translateX(0px);
+    } 
+} 
+
+ @keyframes playing3{
+    0%{
+        transform: translateX(10px) rotate(-40deg);  
+    }
+    25%{
+        transform: translateX(-25px) rotate(-20deg); 
+    }
+    50%{
+       transform: translateX(-50px) rotate(0deg)  
+    }  
+}   
+}
